@@ -30,7 +30,8 @@ h2 {
 }
 
 ul.text {
-    font-size: medium
+    font-size: 20px;
+    color: rgb(200, 200, 250);
 }
 
 span {
@@ -38,11 +39,27 @@ span {
     color: rgb(88, 88, 136);
   }
 
-img {
-    width: 670px;
-    height: 400px;
+#Friends-photo, #puzzle-photo {
+    width: 500px;
+    height: 300px;
     border: rgb(223, 202, 145);
-    border-width: 60px;
+    border-width: 15px;
+    border-style: double;
+    opacity: 1;
+}
+
+#niece-photo, #Disney-photo {
+    width: 200px;
+    height: 280px;
+    border: rgb(223, 202, 145);
+    border-width: 15px;
+    border-style: double;
+    opacity: 1;
+}
+
+#Iguodala-gif, #AVP-gif {
+    border: rgb(223, 202, 145);
+    border-width: 15px;
     border-style: double;
     opacity: 1;
 }
